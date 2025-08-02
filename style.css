@@ -1,0 +1,31 @@
+
+/* Shared Styles */
+
+.leftmargin{
+    margin-left: 150px;
+    margin-top: 120px;
+    margin-right: 150px;
+}
+
+/* Header section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.headerbody{
+    display: flex;
+    justify-content: space-between;
+}
+.hb2{
+    height: 355px;
+    width:570;
+}
+.p1{
+   padding-top: 162px;
+}
