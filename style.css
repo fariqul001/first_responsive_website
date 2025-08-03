@@ -57,6 +57,10 @@
     align-items: flex-end;
 
 }
+.navitems1{
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
  p {
   margin: 0;
   padding: 0;
@@ -241,6 +245,10 @@
     font-size: 20px;
     font-weight: bold;
 }
+.boror{
+    font-size: 40px;
+    font-weight: bold;
+}
 .card span {
   text-decoration: underline;
 }
@@ -258,6 +266,8 @@
   align-items: center;
    gap: 23px;
    margin-top: 120px;
+   margin-bottom: 50px;
+   
 }
 .newsletter-section h2 {
    color: white;
@@ -288,12 +298,78 @@
 }
 
 
+footer{
+  
+    justify-content: space-around;
+    gap:110px;
+}
 
+.foimg{
+    gap:20px;
+    background-color: #666666;
 
+}
+.last  {
+    width: 360px;
+    height: 85px;
+    /* border: 2px solid red; */
+    margin-top: 16px;
+}
+.boorder{
+   
+  display: flex;
+  gap: 20px;
+  justify-content: center;  /* horizontal centering */
+  align-items:flex-start;       /* vertical centering */
+  top: 0;
+    /* background-color: #e95a08; */
+    width: 216px; 
+    /* width: 100%;  */
+    margin-top: 10px;
+    
+}
 
-
+.fontag{
+    font-family: "Inter", sans-serif;
+    font-weight:300px;
+    color: #666666;
+    /* font-size: 19px; */
+}
 
 @media screen and (max-width: 576px){
+ 
+    
+    
+    .navitems3,.navitems2,.navitems1
+    {
+            display: none;
+    }
+    .headerbody{
+        flex-direction: column-reverse;   
+  }
+
+  .main1body3{
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+.restx{
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .restext{
+    font-size: 14px;
+    max-width: 362px;
+  }
+   .mobile-br {
+    display: inline;
+  }
+
+  .hb1{
+    margin-left: 20px;
+  }
     .f-con{
         flex-direction: column;
     }
@@ -339,5 +415,24 @@
   .newsletter-section h2 {
     font-size: 20px;
   }
+.fot-con {
+    flex-direction: column;
+    gap: 0px; /* ⬅ Remove default spacing */
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+
+  .fot-con > div {
+    width: 100%;
+    margin-bottom: 0px; /* ⬅ Reduce vertical space */
+  }
+
+  .boorder {
+    /* flex-direction: column; */
+     justify-content: flex-start;
+    gap: 15px;
+    /* flex-wrap: wrap; Allow wrap if screen too narrow */
+  }
+  
     
 } 
